@@ -27,8 +27,8 @@ class Block:
     def draw(self, screen):
         pygame.draw.rect(screen, self.color, (self.x, self.y, 199, 20))
         pygame.display.flip()
-    def move(self, speed):
-        self.y += speed
+    def move(self, 5):
+        self.y += 5
 
 
 #主程式
